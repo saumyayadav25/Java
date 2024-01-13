@@ -21,5 +21,20 @@ public class Conditions{
     else{
       System.out.println("C is largest");
     }
+
+    //ternary operators
+    int number = 4;
+    String type = (number%2==0)? "even" : "odd" ;
+    System.out.println(type);
+
+    //switch-case statements
+    int num=2;
+    switch(number){
+      case 1: System.out.println("Hello");
+        break;
+      case 2: System.out.println("Number is two");
+        break;
+      default : System.out.println("Good evening");
+    }
   }
 }
