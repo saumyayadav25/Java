@@ -1,6 +1,6 @@
 public class InvertedPyramid{
   public static void inverted_half_pyramid(int n){
-    //outer
+    //outer 
     for (int i=1; i<=n; i++){
       //spaces
       for (int j=1; j<=n-i; j++){
