@@ -2,7 +2,7 @@ public class Sum{
   //function to calculate sum of 2 numbers
   public static int sum(int a, int b){
     return a+b;
-  }
+  } 
   public static int sum(int a , int b, int c ){
     return a + b + c;
   }
